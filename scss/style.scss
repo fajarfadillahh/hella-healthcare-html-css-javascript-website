@@ -244,3 +244,31 @@ img {
     }
   }
 }
+
+// ===== ABOUT SECTION =====
+.about {
+  &__wrapper {
+    display: grid;
+    gap: 3rem;
+  }
+
+  &__data {
+    justify-self: center;
+    text-align: center;
+  }
+
+  &__group {
+    display: grid;
+    gap: 4rem;
+  }
+
+  &__content {
+    text-align: center;
+    display: grid;
+    gap: 2rem;
+
+    &-button {
+      display: inline-flex;
+    }
+  }
+}
