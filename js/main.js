@@ -10,3 +10,15 @@ function showMenu(menuId, toggleId) {
   }
 }
 showMenu("header-menu", "header-toggle");
+
+// ===== SCROLLUP SECTION =====
+const scrollY = window.pageYOffset;
+
+function scrollUp() {
+  const scrollup = document.getElementById("scroll-up");
+
+  this.scrollY > 250
+    ? scrollup.classList.add("scroll-action")
+    : scrollup.classList.remove("scroll-action");
+}
+window.addEventListener("scroll", scrollUp);

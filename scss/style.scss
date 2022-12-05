@@ -353,3 +353,23 @@ img {
     margin-top: 120px;
   }
 }
+
+// ===== SCROLLUP SECTION =====
+.scrollup {
+  position: fixed;
+  bottom: -100%;
+  right: 1.5rem;
+  display: inline-flex;
+  padding: 0.5rem;
+  background-color: var(--green-color);
+  border: 2px solid #131417;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  color: var(--title-color);
+  transition: var(--transition-400);
+
+  // scroll action
+  &.scroll-action {
+    bottom: 4rem;
+  }
+}
