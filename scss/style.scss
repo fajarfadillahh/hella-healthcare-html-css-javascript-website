@@ -90,7 +90,7 @@ img {
     line-height: var(--leading-text);
   }
 
-  &-button {
+  &-bottom {
     margin-bottom: var(--margin-2);
   }
 }
@@ -203,5 +203,44 @@ img {
     font-size: 1.5rem;
     color: var(--title-color);
     cursor: pointer;
+  }
+}
+
+// ===== HOME SECTION =====
+.home {
+  &__container {
+    display: grid;
+    gap: 3rem;
+  }
+
+  &__data,
+  &__img {
+    justify-self: center;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 38px;
+
+    &-bg {
+      display: inline-flex;
+      padding: 0.2rem 0.5rem;
+      background-color: var(--yellow-color);
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    &-help {
+      font-size: 15px;
+      font-weight: var(--font-semibold);
+      color: var(--title-color);
+      text-decoration: underline;
+    }
   }
 }
