@@ -537,3 +537,17 @@ img {
     }
   }
 }
+
+// width 1120px
+@media screen and (min-width: 1120px) {
+  .home {
+    &__title {
+      font-size: 52px;
+      width: 480px;
+    }
+
+    &__text {
+      width: 480px;
+    }
+  }
+}
