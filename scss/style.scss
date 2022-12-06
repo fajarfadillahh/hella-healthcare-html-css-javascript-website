@@ -272,6 +272,11 @@ img {
     display: grid;
     gap: 2rem;
 
+    &-img,
+    &-data {
+      justify-self: center;
+    }
+
     &-button {
       display: inline-flex;
     }
@@ -377,5 +382,19 @@ img {
   // scroll action
   &.scroll-action {
     bottom: 4rem;
+  }
+}
+
+// ===== MEDIA QUERIES =====
+// width 480px
+@media screen and (min-width: 480px) {
+  .home__data,
+  .about__content-data {
+    width: 400px;
+  }
+
+  .home__img,
+  .about__content-img {
+    width: 400px;
   }
 }
