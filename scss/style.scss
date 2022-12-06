@@ -55,11 +55,34 @@
 html {
   height: 100%;
   scroll-behavior: smooth;
+
+  // dark mode
+  &.dark {
+    --container-color: #131417;
+    --title-color: #ffffff;
+
+    .section-text,
+    .header__link,
+    .footer__data-text,
+    .footer__content-link,
+    .footer__copy {
+      color: #fff;
+    }
+
+    .callback__wrapper {
+      background-color: rgba($color: #0e0f11, $alpha: 0.5);
+    }
+
+    .footer__copy {
+      background-color: #0e0f11;
+    }
+  }
 }
 
 body {
   font-family: var(--font-body);
   font-weight: var(--font-reguler);
+  background-color: var(--container-color);
 }
 
 ul,
