@@ -69,6 +69,11 @@ html {
       color: #fff;
     }
 
+    .header__link:hover,
+    .footer__content-link:hover {
+      color: var(--green-color);
+    }
+
     .callback__wrapper {
       background-color: rgba($color: #0e0f11, $alpha: 0.5);
     }
