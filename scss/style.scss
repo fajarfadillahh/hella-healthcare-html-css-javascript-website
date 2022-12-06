@@ -521,4 +521,19 @@ img {
       order: 2;
     }
   }
+
+  .callback {
+    &__data {
+      width: auto;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__text {
+      width: 550px;
+      margin: 0 auto 2rem;
+    }
+  }
 }
