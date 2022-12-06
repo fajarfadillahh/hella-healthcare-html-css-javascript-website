@@ -568,4 +568,14 @@ img {
   .callback__title {
     font-size: 42px;
   }
+
+  .footer {
+    &__data-text {
+      width: 270px;
+    }
+
+    &__content {
+      justify-self: flex-end;
+    }
+  }
 }
