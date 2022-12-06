@@ -550,4 +550,18 @@ img {
       width: 480px;
     }
   }
+
+  .about {
+    &__data {
+      width: 850px;
+    }
+
+    &__title {
+      font-size: 42px;
+    }
+
+    &__content-text {
+      width: 490px;
+    }
+  }
 }
