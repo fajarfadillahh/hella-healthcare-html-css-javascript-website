@@ -287,6 +287,7 @@ img {
 .callback {
   &__wrapper {
     position: relative;
+    display: grid;
     padding: 6rem 2rem;
     border-radius: 12px;
     overflow: hidden;
@@ -305,6 +306,7 @@ img {
   }
 
   &__data {
+    justify-self: center;
     text-align: center;
   }
 
@@ -396,5 +398,24 @@ img {
   .home__img,
   .about__content-img {
     width: 400px;
+  }
+}
+
+// width 640px
+@media screen and (min-width: 640px) {
+  .home__data,
+  .about__data,
+  .about__content-data,
+  .callback__data {
+    width: 450px;
+  }
+
+  .home__img,
+  .about__content-img {
+    width: 450px;
+  }
+
+  .home__buttons {
+    flex-direction: row;
   }
 }
